@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Shards Demo - A free and modern UI toolkit for web makers</title>
+  <meta name="description" content="A free and modern UI toolkit for web makers based on the popular Bootstrap 4 framework.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/shards.min.css?v=2.0.0">
+  <link rel="stylesheet" href="css/shards-demo.css">
+</head>
+
+<body>
+  <div class="loader">
+    <div class="page-loader"></div>
+  </div>
+
+  <!-- NavBar -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 navfix">
+          <img src="images/demo/shards-logo.svg" alt="Example Navbar 1" class="mr-2" height="30">
+          <a class="navbar-brand" href="#">I Ring</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-6" aria-controls="navbarNavDropdown-6"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown-6">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://designrevision.com" id="navbarDropdownMenuLink-6" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-6">
+                  <a class="dropdown-item" href="#">Design</a>
+                  <a class="dropdown-item" href="#">Development</a>
+                  <a class="dropdown-item" href="#">Marketing</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+  <!-- Floating Shards -->
+  <img src="images/demo/iring.png" alt="Shard" class="shard" style="top:200px">
+
+  <!-- Welcome Section -->
+  <div class="welcome d-flex justify-content-center flex-column">
+    <div class="inner-wrapper mt-auto mb-auto">
+      <h1 class="slide-in" style="letter-spacing:10px">I RING</h1>
+      <p class="slide-in">La nouvelle bague connectée</p>
+      <div class="action-links slide-in">
+        <a href="https://designrevision.com/downloads/shards" class="btn btn-primary btn-pill align-self-center mr-2">
+          <i class="fa fa-download mr-1"></i>BUY</a>
+        <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-outline-light btn-pill align-self-center">En savoir plus</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="page-content">
+    <!-- Content -->
+    
+        <div class="col-md"><h2 class="text">Nos Capteurs</h2></div>
+        <div class="icons-example clearfix mb-5">
+          <div class="icons-example-wrapper material-icons col-md-3 float-left">
+            <div class="material-icons col-lg-3 col-md-3 col-sm-12 d-table text-center ml-auto mr-auto py-5">
+              <img class="mb-4" src="images/demo/loca.svg" alt="Shards supports the Material Icons pack by default.">
+              <h2 class="text-light mb-2">Localisation</h2>
+              <h5 class="text-muted mb-0">Fonction GPS</h5>
+            </div>
+          </div>
+
+          <div class="icons-example-wrapper font-awesome col-md-3 float-left">
+            <div class="material-icons col-lg-3 col-md-3 col-sm-12 d-table text-center mr-auto ml-auto py-5">
+              <img class="mb-4" id="taille" src="images/demo/temp.svg" alt="Shards supports the FontAwesome Icons pack by default.">
+              <h2 class="text-light mb-2">Température</h2>
+              <h5 class="text-muted mb-0">Connaître son corps</h5>
+            </div>
+          </div>
+           
+
+           <div class="icons-example clearfix mb-5">
+          <div class="icons-example-wrapper material-icons col-md-3 float-left">
+            <div class="material-icons col-lg-3 col-md-3 col-sm-12 d-table text-center ml-auto mr-auto py-5">
+              <img class="mb-4" id="taille" src="images/demo/speed.svg" alt="Shards supports the Material Icons pack by default.">
+              <h2 class="text-light mb-2">Vitesse</h2>
+              <h5 class="text-muted mb-0">Statistiques de travail</h5>
+            </div>
+          </div>
+
+          <div class="icons-example-wrapper font-awesome col-md-3 float-left">
+            <div class="material-icons col-lg-3 col-md-3 col-sm-12 d-table text-center mr-auto ml-auto py-5">
+              <img class="mb-4" id="taille" src="images/demo/movement.svg" alt="Shards supports the FontAwesome Icons pack by default.">
+              <h2 class="text-light mb-2">Mouvement</h2>
+              <h5 class="text-muted mb-0">Vos déplacements</h5>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      <!-- Cards -->
+      <div id="cards" class="container mb-2" style="padding-bottom: 1px">
+        <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+          <h3 class="mb-4">Connecté et Rapide</h3>
+          <p>I-Ring est une bague qui a était créer dans le but de vous simplifier la vie.
+            Facile d'utilisation et très utile, I-Ring est faite pour vous !</p>
+        </div>
+
+        <div class="example col-md-12 ml-auto mr-auto">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+                <img class="card-img-top"src="images/demo/stock-photos/paiement.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Paiment</h4>
+                  <p class="card-text">Fini les paiments en liquide ou même en carte bleue, 
+                    grâce à I-RING vous pourrez désormais payer simplement en utilisant votre doigt...</p>
+                  <a href="#" class="btn btn-primary">Lire plus</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 sm-hidden">
+              <div class="card">
+                <img class="card-img-top" src="images/demo/stock-photos/adn.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Identification</h4>
+                  <p class="card-text">Désormais il est possible de présenter son identité grâce à notre bague, ainsi qu'à notre système qui va utiliser votre ADN...</p>
+                  <a href="#" class="btn btn-primary">Lire plus</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 sm-hidden">
+              <div class="card">
+                <img class="card-img-top" id="imgtaille" src="images/demo/stock-photos/geoloc.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Géolocalisation</h4>
+                  <p class="card-text">Retrouvez dès maintenant la position des membres de votre famille(ex:enfants),afin qu'il soit en sécurité peu importe où il se situe...</p>
+                  <a href="#" class="btn btn-primary">Lire Plus</a>
+                </div>
+              </div>
+            </div>           
+          </div>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      
+    <!-- Extras -->
+    <div id="extras" class="mb-5 py-5">
+      <div class="section-title container ml-auto mr-auto">
+        <div class="col-lg-8 col-md-10 ml-auto mr-auto mb-5">
+          <h1 class="mb-2 text-center">🎁</h1>
+          <h3 class="mb-4 text-center">Extras</h3>
+          <p class="text-center">That's not all! We've prepared
+            <b>two free landing pages</b> built using mostly Shards and some custom styling to help you start your next project
+            faster.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+
+          <!-- Extra: App Landing Page -->
+          <div class="col-md-4 mb-4 ml-auto">
+            <div class="card">
+              <img class="card-img-top" src="images/demo/shards-app-demo-page-demo.jpg" alt="Shards App Promo - Demo Landing Page">
+              <div class="card-body py-3">
+                <h6 class="text-center text-muted m-0">Mobile App Promo</h6>
+              </div>
+            </div>
+            <a class="d-table ml-auto mr-auto mt-4" href="https://designrevision.com/demo/shards/extra/app-promo.html">
+              <button class="btn btn-outline-primary btn-pill">View Demo</button>
+            </a>
+          </div>
+
+          <!-- Extra: Agency Landing Page -->
+          <div class="col-md-4 mb-4 mr-auto">
+            <div class="card">
+              <img class="card-img-top" src="images/demo/shards-agency-landing-page-demo.jpg" alt="Shards Agency - Demo Landing Page">
+              <div class="card-body py-3">
+                <h6 class="text-center text-muted m-0">Agency Landing Page</h6>
+              </div>
+            </div>
+            <a class="d-table ml-auto mr-auto mt-4" href="https://designrevision.com/demo/shards/extra/agency-landing.html">
+              <button class="btn btn-outline-primary btn-pill">View Demo</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documentation -->
+    <div id="documentation" class="bg-white">
+      <div class="section-title container ml-auto mr-auto py-5">
+        <div class="col-lg-8 col-md-10 ml-auto mr-auto py-5">
+          <h1 class="mb-2 text-center">📘</h1>
+          <h3 class="mb-4 text-center">Read the Docs</h3>
+          <p class="text-center">Make sure you check out the documentation and learn more about all the available components and how to use them.</p>
+          <a class="d-table ml-auto mr-auto" href="https://designrevision.com/docs/shards">
+            <button class="btn btn-pill btn-outline-primary">
+              <i class="fa fa-book mr-1"></i> Documentation</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer CTA -->
+    <div class="footer-cta bg-dark">
+      <div class="container my-5">
+        <div class="py-5">
+          <div class="text-center">
+            <h1>🛠</h1>
+            <h2 class="text-white">Build Something!</h2>
+            <p class="text-muted col-lg-8 col-md-10 ml-auto mr-auto">What are you waiting for?
+              <b>
+                <u>Go ahead and build something!
+                </u>
+              </b> Can't wait to see what you come up with! If you like Shards, make sure you share it with your friends too!</p>
+          </div>
+
+          <div class="share d-table ml-auto mr-auto mt-5">
+            <a href="https://twitter.com/intent/tweet?url=https://designrevision.com/download/shards&text=I%27m+in+love+with+Shards%2C+a+free+Bootstrap+4+UI+kit+by+%40DesignRevision+%23ui+%23design+%23free+%23bootstrap"
+              class="btn btn-pill btn-primary mr-4" title="Share Shards on Twitter">
+              <i class="fa fa-twitter mr-1"></i> Share on Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://designrevision.com/download/shards" class="btn btn-pill btn-primary mr-4"
+              title="Share on Facebook">
+              <i class="fa fa-facebook mr-1"></i> Share on Facebook</a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&title=Shards+%E2%80%94+A+free+and+modern+Bootstrap+4+UI+kit&url=https://designrevision.com/download/shards"
+              class="btn btn-pill btn-primary mr-4" title="Share on LinkedIn">
+              <i class="fa fa-linkedin mr-1"></i> Share on LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="main-footer py-5">
+      <p class="text-muted text-center small p-0 mb-4">&copy; Copyright 2018 — DesignRevision</p>
+      <div class="social d-table mx-auto">
+        <a class="twitter mx-3 h4 d-inline-block text-secondary" href="https://twitter.com/DesignRevision" target="_blank">
+          <i class="fa fa-twitter"></i>
+          <span class="sr-only">View our Twitter Profile</span>
+        </a>
+        <a class="facebook mx-3 h4 d-inline-block text-secondary" href="https://www.facebook.com/designrevision" target="_blank">
+          <i class="fa fa-facebook"></i>
+          <span class="sr-only">View our Facebook Profile
+            <span>
+        </a>
+        <a class="github mx-3 h4 d-inline-block text-secondary" href="https://github.com/designrevision" target="_blank">
+          <i class="fa fa-github"></i>
+          <span class="sr-only">View our GitHub Profile</span>
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1662270373824826";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+  </script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/shards.min.js"></script>
+  <script src="js/demo.min.js"></script>
+
+</body>
+
+</html>
